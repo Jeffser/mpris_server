@@ -58,7 +58,7 @@ def get_dbus_name(
 
   # interface names can contain hyphens
   valid_chars = INTERFACE_CHARS if is_interface else VALID_CHARS
-  valid_chars.append('.')
+  valid_chars.add('.')
 
   # convert utf8 to ascii
   new_name = to_ascii(name)
