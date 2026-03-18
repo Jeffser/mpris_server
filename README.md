@@ -1,3 +1,6 @@
+> [!NOTE]
+> I forked this repo to fix an issue where the character `.` was being ommited from dbus names
+
 # ▶️ Add MPRIS integration to media players
 
 `mpris_server` provides adapters to integrate [MPRIS](https://specifications.freedesktop.org/mpris-spec/2.2/) support in
